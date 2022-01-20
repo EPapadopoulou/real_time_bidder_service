@@ -30,7 +30,7 @@ pip install -e .
 ```
 
 Run
-===
+------
 
 ```
 venv\Scripts\python.exe -m flask run
