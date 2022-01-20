@@ -57,7 +57,7 @@ def process_request_for_bid(bidRequest):
 
         bid_id = bidRequest.bid_id
 
-        c_json = requests.get(config.get('CAMPAIGNS_API_URI')).json()
+        c_json = requests.get(config.get('CAMPAIGNS_API_URI'), verify=False).json()
 
         campaign_list = c_json["campaigns"]
 
