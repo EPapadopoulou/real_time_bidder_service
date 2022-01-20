@@ -10,6 +10,7 @@ Install
   - SESSION_COOKIE_NAME = 'auction_cookie'
   - LOG_FILE = 'auction.log'
   - PROD_CAMPAIGNS_URI = "http://localhost:5000/campaigns/get" (change accordingly)
+    -  You can use PROD_CAMPAIGNS_URI = https://test.elisys.gr/campaigns/get
   - DEV_CAMPAIGNS_URI = "http://localhost:5000/campaigns/get" (change accordingly)
 
 3. create a virtualenv and activate it:
