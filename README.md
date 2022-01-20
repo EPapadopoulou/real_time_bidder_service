@@ -29,6 +29,12 @@ install bidder
 pip install -e .
 ```
 
+Run
+===
+
+```
+venv\Scripts\python.exe -m flask run
+```
 The bidder service has been deployed on an IIS server using wsgi. 
 The bidder exposes 2 REST API endpoints:
 - the Campaigns API https://test.elisys.gr/campaigns/get 
